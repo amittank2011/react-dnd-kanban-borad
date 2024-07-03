@@ -29,7 +29,7 @@ function ColumnContainer(props) {
   return (
     <div
       ref={setNodeRef}
-      className={`bg-columnBackgroundColor ${classMappings[isListview].columnMain} flex flex-col`}
+      className={`flex flex-col bg-columnBackgroundColor ${classMappings[isListview].columnMain}`}
     >
       <div
         className={`flex bg-mainBackgroundColor text-md h-[60px] p-3 font-bold border-columnBackgroundColor ${classMappings[isListview].columnborder}`}
